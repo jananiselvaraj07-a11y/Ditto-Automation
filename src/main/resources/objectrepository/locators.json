@@ -1,0 +1,67 @@
+{
+  "HomePage": {
+    "dittoLogo": "//img[@alt='Ditto']",
+    "optimaSecure": "//p[normalize-space()='Health']/following-sibling::div//span[normalize-space()='Optima Secure']/ancestor::div[@data-with-border='true']"
+  },
+
+  "PolicyPage": {
+    "selectedProduct": "//h1/following-sibling::div//span[normalize-space()='Optima Secure']",
+    "nextButton": "//button[.//span[normalize-space()='Next']]",
+	"fullListButton": "//button[.//span[normalize-space()='Full list']]",
+	"closeButton": "//button[.//span[normalize-space()='Close']]",
+	"continueButton": "//button[.//span[normalize-space()='Continue']]"
+  },
+
+  "FamilyMembersPage": {
+      "pageHeading": "//h1[normalize-space()='Who all do you want to buy health insurance for?']",
+
+      "self": "//label[.//span[normalize-space()='Self']]",
+      "selfMale": "//label[.//span[normalize-space()='Self']]//div[contains(@class,'_memberGender_') and normalize-space()='Male']",
+      "selfFemale": "//label[.//span[normalize-space()='Self']]//div[contains(@class,'_memberGender_') and normalize-space()='Female']",
+
+      "spouse": "//label[.//span[normalize-space()='Spouse']]",
+      "spouseMale": "//label[.//span[normalize-space()='Spouse']]//div[contains(@class,'_memberGender_') and normalize-space()='Male']",
+      "spouseFemale": "//label[.//span[normalize-space()='Spouse']]//div[contains(@class,'_memberGender_') and normalize-space()='Female']",
+
+      "son": "//label[.//span[normalize-space()='Son']]",
+      "daughter": "//label[.//span[normalize-space()='Daughter']]",
+
+      "father": "//label[.//span[normalize-space()='Father']]",
+      "mother": "//label[.//span[normalize-space()='Mother']]",
+
+      "fatherInLaw": "//label[.//span[normalize-space()='Father-in-law']]",
+      "motherInLaw": "//label[.//span[normalize-space()='Mother-in-law']]",
+
+      "nextStepButton": "//button[.//span[normalize-space()='Next step']]",
+      "selectedMemberCount": "//span[normalize-space()='SELECTED']/following-sibling::div//span[contains(normalize-space(),'Member')]"
+  },
+  
+  "PolicyDetailsPage": {
+      "pageHeading": "//h1[normalize-space()='Tell us about you']",
+      "age": "//input[@name='Selfage' and @placeholder='Your age']",
+      "pincode": "//input[@name='pincode' and @placeholder='Enter your pin code']",
+      "loyaltyDiscountYes": "//label[normalize-space()='Yes']",
+      "loyaltyDiscountNo": "//label[normalize-space()='No']",
+	  "coverAmount": "//span[contains(normalize-space(.),'₹') and contains(normalize-space(.),'L')]",
+	  "calculatePremiumButton": "//button[.//span[normalize-space()='Calculate Premium']]",
+	  "addOnsRiders": "//span[normalize-space()='Add Ons & Riders']",
+	  "unlimitedRestoration": "//input[@type='checkbox' and @name='Unlimited Restoration']",
+	  "optimaWellBeing": "//input[@type='checkbox' and @name='Optima Well-being']",
+	  "abcd": "//input[@type='checkbox' and @name='ABCD']",
+	  "otherAddonsAccordion": "//div[./span[contains(.,'Other Add-ons')]]",
+	  "hospitalCashBenefit": "//input[@type='checkbox' and @name='Hospital Cash Benefit']",
+	  "limitless": "//input[@type='checkbox' and @name='Limitless']",
+	  "parenthood": "//input[@type='checkbox' and @name='Parenthood']",
+	  "seriousIllnessBooster": "//input[@type='checkbox' and @name='Serious Illness Booster']",
+	  "policyPeriod1Year": "//span[normalize-space()='1 Year']/ancestor::div[@data-with-border='true'][1]//input[@type='radio']",
+	  "policyPeriod2Years": "//span[normalize-space()='2 Years']/ancestor::div[@data-with-border='true'][1]//input[@type='radio']",
+	  "policyPeriod3Years": "//span[normalize-space()='3 Years']/ancestor::div[@data-with-border='true'][1]//input[@type='radio']",
+	  "membersIncluded": "//span[normalize-space()='Members to be included']/following-sibling::div//span[contains(@class,'mantine-Badge-label')]",
+	  "summaryPincode": "//span[normalize-space()='Pin code']/following-sibling::span",
+	  "summaryCover": "//span[normalize-space()='Cover']/following-sibling::span",
+	  "basePremium": "//span[normalize-space()='Base Premium']/following-sibling::span",
+	  "recommendedAddOns": "//span[contains(normalize-space(.),'Recommended Add-ons')]/following-sibling::span",
+	  "otherAddOns": "//span[contains(normalize-space(.),'Other Add-ons')]/following-sibling::span",
+	  "totalPremium": "//span[normalize-space()='Total Premium']/following-sibling::span"
+	}
+}
