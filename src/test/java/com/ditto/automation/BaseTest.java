@@ -27,3 +27,6 @@ public class BaseTest {
         DriverManager.quitDriver();
     }
 }
+
+
+//p[normalize-space()='Afternoon']//div[contains(@class,'css-1c19chf')]

@@ -206,7 +206,7 @@ public class TestAssertions {
               + resultMessage
               + RESET
       );
-
+      
       ReportManager.passTest(resultMessage);
 
   } catch (AssertionError e) {

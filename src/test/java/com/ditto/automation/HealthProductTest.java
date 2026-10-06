@@ -120,7 +120,7 @@ public class HealthProductTest extends BaseTest {
         double otherAddOns = Double.parseDouble(otherAddOnsText.replace("₹", "").replace(",", "").trim());
         double totalPremium = Double.parseDouble(totalPremiumText.replace("₹", "").replace(",", "").trim());
         
-        // Calculate and validate the total premium
+        // Calculate and validate total premium
         double expectedTotalPremium = basePremium + recommendedAddOns + otherAddOns;
         TestAssertions.assertDoubleEquals(totalPremium,expectedTotalPremium,0.01,"PolicyDetailsPage","totalPremium","Total Premium calculation validation");
     }
